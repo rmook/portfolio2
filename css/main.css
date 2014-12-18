@@ -37,37 +37,27 @@ body {
   border-top: solid 12px #404f29;
   border-bottom: solid 12px #404f29;
 }
-/* line 44, sass/main.scss */
-.main li:nth-child(1) {
-  background-image: url("../img/websiteIcon.png");
-}
-/* line 47, sass/main.scss */
-.main li:nth-child(2) {
-  background-image: url("../img/codeIcon.png");
-}
-/* line 50, sass/main.scss */
-.main li:nth-child(3) {
-  background-image: url("../img/listIcon.png");
-}
-/* line 53, sass/main.scss */
-.main li:nth-child(4) {
-  background-image: url("../img/musicIcon.png");
-}
-/* line 56, sass/main.scss */
+/* line 45, sass/main.scss */
 .main li {
   display: inline-block;
-  width: 35%;
-  padding: 50px 7% 20px 7%;
-  background-size: 40px 40px;
-  background-repeat: no-repeat;
-  background-position: center top;
+  margin: 20px 5px 20px 5px;
+  width: 120px;
+  height: 120px;
+  border: solid 5px #4e6133;
+  border-radius: 50%;
+}
+/* line 52, sass/main.scss */
+.main li a img {
+  width: 50px;
+  height: 50px;
+  padding: 35px 25px 25px 25px;
 }
 
-/* line 67, sass/main.scss */
+/* line 62, sass/main.scss */
 .foot p {
   color: #4e6133;
 }
-/* line 70, sass/main.scss */
+/* line 65, sass/main.scss */
 .foot li {
   padding: 0 5%;
   display: inline;

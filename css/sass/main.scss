@@ -41,25 +41,20 @@ body {
 	padding: 3% 10%;
 	border-top: solid 12px $darkBorderColor;
 	border-bottom: solid 12px $darkBorderColor;
-	li:nth-child(1) {
-		background-image: url("../img/websiteIcon.png");
-		}
-	li:nth-child(2) {
-		background-image: url("../img/codeIcon.png");
-		}
-	li:nth-child(3) {
-		background-image: url("../img/listIcon.png");
-		}
-	li:nth-child(4) {
-		background-image: url("../img/musicIcon.png");
-		}
+
 	li {
 		display: inline-block;
-		width: 35%;
-		padding: 50px 7% 20px 7%;
-		background-size: 40px 40px;
-		background-repeat: no-repeat;
-		background-position: center top;
+		margin: 20px 5px 20px 5px;
+		width: 120px;
+		height: 120px;
+		border: solid 5px $darkTextColor;
+		border-radius: 50%;
+		a img {
+		width: 50px;
+		height: 50px;
+		padding: 35px 25px 25px 25px;
+
+		}
 	}
 }
 
