@@ -1,6 +1,6 @@
 /******	COLORS *********************************/
 /****** FONTS *******************************/
-/****  ELIMINATE DEFAULT LIST STYLING *********/
+/****  ELIMINATE DEFAULT LIST+LINK STYLINGS *********/
 /* line 14, sass/main.scss */
 ul {
   padding-left: 0px;
@@ -47,23 +47,24 @@ body {
   height: 120px;
   border: solid 5px #4e6133;
   border-radius: 50%;
+  transition: background .5s;
 }
-/* line 55, sass/main.scss */
+/* line 56, sass/main.scss */
 .main li a img {
   width: 50px;
   height: 50px;
   padding: 35px 25px 25px 25px;
 }
-/* line 66, sass/main.scss */
+/* line 64, sass/main.scss */
 .main li:hover {
   background: #4e6133;
 }
 
-/* line 74, sass/main.scss */
+/* line 72, sass/main.scss */
 .foot p {
   color: #4e6133;
 }
-/* line 77, sass/main.scss */
+/* line 75, sass/main.scss */
 .foot li {
   padding: 0 5%;
   display: inline;
