@@ -31,16 +31,18 @@ body {
   font-size: 3em;
 }
 
-/* line 40, sass/main.scss */
-.main {
+/* line 41, sass/main.scss */
+.main,
+.gallery {
   font-size: 1.5em;
   background: #dddddd;
   padding: 3% 10%;
   border-top: solid 12px #404f29;
   border-bottom: solid 12px #404f29;
 }
-/* line 47, sass/main.scss */
-.main li {
+/* line 48, sass/main.scss */
+.main li,
+.gallery li {
   display: inline-block;
   margin: 20px 5px;
   width: 120px;
@@ -49,23 +51,33 @@ body {
   border-radius: 50%;
   transition: background .5s, margin .5s;
 }
-/* line 56, sass/main.scss */
+/* line 58, sass/main.scss */
+.main li:hover,
+.gallery li:hover {
+  background: #82a154;
+  margin: 20px 10px;
+}
+
+/* line 63, sass/main.scss */
 .main li a img {
   width: 50px;
   height: 50px;
   padding: 35px 25px 25px 25px;
 }
-/* line 63, sass/main.scss */
-.main li:hover {
-  background: #82a154;
-  margin: 20px 10px;
+
+/* line 69, sass/main.scss */
+.gallery li a img {
+  width: 120px;
+  height: 120px;
+  padding: 0px;
+  border-radius: 50%;
 }
 
-/* line 71, sass/main.scss */
+/* line 78, sass/main.scss */
 .foot p {
-  color: #4e6133;
+  color: #404f29;
 }
-/* line 74, sass/main.scss */
+/* line 81, sass/main.scss */
 .foot li {
   padding: 0 5%;
   display: inline;
