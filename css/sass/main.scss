@@ -1,8 +1,74 @@
-#secondary {
-    float: right;
-    width: 40%;
+/******	COLORS *********************************/
+
+$backgroundColor: #82A154;
+$darkTextColor: #4E6133;
+$lightTextColor: #ddd;
+$darkBorderColor: #404F29;
+
+
+/****** FONTS *******************************/
+
+$font-stack: Helevetica, sans-serif;
+
+/****  ELIMINATE DEFAULT LIST STYLING *********/
+ul {
+	padding-left: 0px;
 }
 
-p {
-	background: green;
+li {
+	list-style: none;
+	a {
+	text-decoration: none;
+	color: $lightTextColor;
+	}
+}
+
+/****** MOBILE STYLING **********************/
+
+body {
+	font: $font-stack;
+	background: $backgroundColor;
+	text-align: center;
+}
+
+.header {
+	color: $lightTextColor;
+	font-size: 3em;
+}
+
+.main {
+	font-size: 1.5em;
+	padding: 3% 10%;
+	border-top: solid 12px $darkBorderColor;
+	border-bottom: solid 12px $darkBorderColor;
+	li:nth-child(1) {
+		background-image: url("../img/websiteIcon.png");
+		}
+	li:nth-child(2) {
+		background-image: url("../img/codeIcon.png");
+		}
+	li:nth-child(3) {
+		background-image: url("../img/listIcon.png");
+		}
+	li:nth-child(4) {
+		background-image: url("../img/musicIcon.png");
+		}
+	li {
+		display: inline-block;
+		width: 35%;
+		padding: 50px 7% 20px 7%;
+		background-size: 40px 40px;
+		background-repeat: no-repeat;
+		background-position: center top;
+	}
+}
+
+.foot {
+	p {
+	color: $darkTextColor;
+	}
+	li {
+	padding: 0 5%;
+	display: inline;
+	}
 }

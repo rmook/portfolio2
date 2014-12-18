@@ -1,10 +1,74 @@
-/* line 1, sass/main.scss */
-#secondary {
-  float: right;
-  width: 40%;
+/******	COLORS *********************************/
+/****** FONTS *******************************/
+/****  ELIMINATE DEFAULT LIST STYLING *********/
+/* line 14, sass/main.scss */
+ul {
+  padding-left: 0px;
 }
 
-/* line 6, sass/main.scss */
-p {
-  background: green;
+/* line 18, sass/main.scss */
+li {
+  list-style: none;
+}
+/* line 20, sass/main.scss */
+li a {
+  text-decoration: none;
+  color: #dddddd;
+}
+
+/****** MOBILE STYLING **********************/
+/* line 28, sass/main.scss */
+body {
+  font: Helevetica, sans-serif;
+  background: #82a154;
+  text-align: center;
+}
+
+/* line 34, sass/main.scss */
+.header {
+  color: #dddddd;
+  font-size: 3em;
+}
+
+/* line 39, sass/main.scss */
+.main {
+  font-size: 1.5em;
+  padding: 3% 10%;
+  border-top: solid 12px #404f29;
+  border-bottom: solid 12px #404f29;
+}
+/* line 44, sass/main.scss */
+.main li:nth-child(1) {
+  background-image: url("../img/websiteIcon.png");
+}
+/* line 47, sass/main.scss */
+.main li:nth-child(2) {
+  background-image: url("../img/codeIcon.png");
+}
+/* line 50, sass/main.scss */
+.main li:nth-child(3) {
+  background-image: url("../img/listIcon.png");
+}
+/* line 53, sass/main.scss */
+.main li:nth-child(4) {
+  background-image: url("../img/musicIcon.png");
+}
+/* line 56, sass/main.scss */
+.main li {
+  display: inline-block;
+  width: 35%;
+  padding: 50px 7% 20px 7%;
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+/* line 67, sass/main.scss */
+.foot p {
+  color: #4e6133;
+}
+/* line 70, sass/main.scss */
+.foot li {
+  padding: 0 5%;
+  display: inline;
 }
