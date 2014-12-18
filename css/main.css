@@ -1,0 +1,10 @@
+/* line 1, sass/main.scss */
+#secondary {
+  float: right;
+  width: 40%;
+}
+
+/* line 6, sass/main.scss */
+p {
+  background: green;
+}
