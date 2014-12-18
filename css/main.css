@@ -10,34 +10,36 @@ ul {
 li {
   list-style: none;
 }
-/* line 20, sass/main.scss */
-li a {
+
+/* line 22, sass/main.scss */
+a {
   text-decoration: none;
   color: #dddddd;
 }
 
 /****** MOBILE STYLING **********************/
-/* line 28, sass/main.scss */
+/* line 29, sass/main.scss */
 body {
   font: Helevetica, sans-serif;
   background: #82a154;
   text-align: center;
 }
 
-/* line 34, sass/main.scss */
+/* line 35, sass/main.scss */
 .header {
   color: #dddddd;
   font-size: 3em;
 }
 
-/* line 39, sass/main.scss */
+/* line 40, sass/main.scss */
 .main {
   font-size: 1.5em;
+  background: #dddddd;
   padding: 3% 10%;
   border-top: solid 12px #404f29;
   border-bottom: solid 12px #404f29;
 }
-/* line 45, sass/main.scss */
+/* line 47, sass/main.scss */
 .main li {
   display: inline-block;
   margin: 20px 5px 20px 5px;
@@ -46,18 +48,22 @@ body {
   border: solid 5px #4e6133;
   border-radius: 50%;
 }
-/* line 52, sass/main.scss */
+/* line 55, sass/main.scss */
 .main li a img {
   width: 50px;
   height: 50px;
   padding: 35px 25px 25px 25px;
 }
+/* line 66, sass/main.scss */
+.main li:hover {
+  background: #4e6133;
+}
 
-/* line 62, sass/main.scss */
+/* line 74, sass/main.scss */
 .foot p {
   color: #4e6133;
 }
-/* line 65, sass/main.scss */
+/* line 77, sass/main.scss */
 .foot li {
   padding: 0 5%;
   display: inline;
