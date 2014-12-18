@@ -42,12 +42,12 @@ body {
 /* line 47, sass/main.scss */
 .main li {
   display: inline-block;
-  margin: 20px 5px 20px 5px;
+  margin: 20px 5px;
   width: 120px;
   height: 120px;
   border: solid 5px #4e6133;
   border-radius: 50%;
-  transition: background .5s;
+  transition: background .5s, margin .5s;
 }
 /* line 56, sass/main.scss */
 .main li a img {
@@ -55,16 +55,17 @@ body {
   height: 50px;
   padding: 35px 25px 25px 25px;
 }
-/* line 64, sass/main.scss */
+/* line 63, sass/main.scss */
 .main li:hover {
-  background: #4e6133;
+  background: #82a154;
+  margin: 20px 10px;
 }
 
-/* line 72, sass/main.scss */
+/* line 71, sass/main.scss */
 .foot p {
   color: #4e6133;
 }
-/* line 75, sass/main.scss */
+/* line 74, sass/main.scss */
 .foot li {
   padding: 0 5%;
   display: inline;
