@@ -1,0 +1,68 @@
+/*Page Styles 
+==========================================*/
+
+
+.navbar {
+	background-color: #333;
+	border-bottom: 10px solid #730083;
+	margin-bottom: 0px;
+	font-family: 'Merienda One', cursive;
+}
+
+.navbar a {
+	text-decoration: none;
+	display: inline-block;
+	color: #ccc;
+	vertical-align: middle;
+	font-size: 2.5em;
+}
+
+.container-fluid,
+.jumbotron {
+	background-color: #444;
+	color: #ddd;
+	text-align: center;
+}
+
+.logo{
+	height: 55px;
+	display: inline-block;
+	padding-bottom: 6px;
+	padding-right: 5px;
+	padding-left: 10px;
+}
+
+
+.btn-group {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.btn-success {
+	background-color: #558324;
+}
+
+.box {
+	border-top: 5px solid #558324;
+	margin-bottom: 15px;
+}
+
+.box p {
+	margin: 0px 15px 0px 15px;
+}
+
+.footer {
+	padding-top: 20px;
+	background-color: #333;
+	height: 50px;
+	text-decoration: none;
+	color: #aaa;
+	border-top: 10px solid #730083;
+}
+
+.footer a {
+	text-decoration: none;
+	color: #ccc;
+}
+
+

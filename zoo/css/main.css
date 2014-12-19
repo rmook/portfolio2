@@ -1,0 +1,327 @@
+
+  /*********************     Mobile styling      **********************/
+header {
+  margin-bottom: 30px;
+}
+
+.wrapper {
+  margin-top: -20px;
+}
+
+a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.sidebar-nav {
+  list-style: none;
+  padding-left: 0;
+}
+
+#tix-btn{
+	margin: 20px 20px;
+	display: block;
+}
+
+
+.leopard_button {
+	background-color: rgba(47, 179, 221, 0.8);
+	background-image: url('../img/leopard_gradient.png') ;
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	width: 100%;
+	position: relative;
+	display: block;
+	padding: 10px 15px;
+	text-align: right;
+	margin: 0px 5px 5px 0px;
+	font-family: 'Ubuntu', serif;
+	font-size: 1.5em;
+	font-style: bold;
+}
+
+#myCarousel,
+.navbar-default {
+  margin-bottom: 0px;
+}
+
+.carousel {
+  padding: 0;
+}
+
+.row-fluid {
+  margin-bottom: -1px;
+}
+
+.navbar-default {
+  border-top: 10px solid #bef46b;
+  background-color: #83b03e;
+  margin-left: -1px;
+}
+
+.carousel-indicators {
+  bottom: 0px;
+}
+
+.primary,
+.footer {
+  padding-left: 55px;
+  overflow: scroll;
+}
+
+.primary {
+  height: 150px;
+}
+
+.contact {
+  margin-top: -10px;
+}
+
+.social_links a{
+  display: inline-block;
+  margin: 10px;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+.membership_section {
+  padding: 20px;
+}
+
+.carousel-control {
+  display: none;
+}
+  /*********************     color styling      **********************/
+
+#sidebar-wrapper {
+  background-color: #fec573;
+}
+
+.calendar {
+  background-color: #7e2880;
+}
+
+.Plan_Visit {
+  background-color: #2fb3dd;
+}
+
+.Media {
+  background-color: #e78639;
+}
+
+.footer {
+  background-color: #83b03e;
+}
+
+.sidebar-nav li a:not(.button),
+.primary,
+.footer {
+  color: #fff;
+}
+
+.donation, .support  {
+	background-color: #fec573;
+}
+
+.volunteer, .groups {
+	background-color:  #2fb3dd;
+}
+
+.education, .plants {
+	background-color: #7e2880;
+
+}
+
+.border {
+	border: 2px solid white;
+}
+
+ /*********************     Button animation ******************************************/
+ 
+#tix-btn:hover {
+  -webkit-animation: jiggle 150ms infinite alternate;
+  animation: jiggle 150ms infinite alternate;
+}
+
+@-webkit-keyframes jiggle {
+  to {-webkit-transform:rotate(7deg);}
+}
+
+@keyframes jiggle {
+  to {transform:rotate(7deg);}
+}
+
+  /*********************    animals.html styling     **********************/
+  
+.animals {
+  height: 300px;
+  text-align: center;
+  margin: auto;
+}
+
+.animals img {
+  width: 100%;
+}
+
+  /************************* map.html styling   *************************/
+#map_canvas {
+	width: 100%;
+	height: 400px;
+	background-color: #CCC;
+}
+
+.center {
+	margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+}
+
+.conceal-link {
+	font-size: 0%;
+}
+
+.social_links  .list {
+	list-style: none;
+}
+
+.social_links .facebook {
+	list-style-image: url('../img/facebook.png');
+}
+
+.social_links .twitter {
+	list-style-image: url('../img/twitter.png');
+}
+
+.social_links .instagram {
+	list-style-image: url('../img/instagram.png');
+}
+
+ .hide-google-map {
+	visibility: hidden;
+ }
+ 
+ .hide-zoo-map {
+ 
+ }
+
+/* modal window for map */
+#overlay {
+  background:rgba(0,0,0,0.7);
+  width:50%;
+  height:50%;
+  position:absolute;
+  top:0;
+  right: 25%;
+  display:none;
+  text-align:center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#overlay img {
+	width: 100%;
+	height: 100%;
+}
+
+
+  /*********************     Responsive  - First Breakpoint      **********************/
+ 
+ 
+  
+@media screen and (min-width: 640px) {
+   .primary p {
+	font-size: 0%;
+	}
+	
+   .show-link {
+	font-size: 250%;
+	}
+	
+   .conceal-h1 {
+	font-size: 0%;
+	}
+ 
+  .primary,
+  .footer {
+  	padding-left: 15px;
+  }
+  
+  
+  .contact {
+    margin-top: 0px;
+  }
+  
+  .wrapper {
+  	padding-left: 15px;  
+  }
+  
+  .container-fluid {
+    padding-left: 0px;
+  }
+  
+  .nav {
+    border-right: 3px solid #e78639;
+  }
+  
+  .wrapper {
+    padding-left: 250px;
+  }
+
+  #sidebar-wrapper {
+    margin-left: -235px;
+    left: 235px;
+    width: 235px;
+    background: #fec573;
+    background-image: url('../img/nav_zebra_bkg.png');
+    position: fixed;
+    height: 100%;
+    overflow-y: auto;
+    z-index: 1000;
+    transition: all 0.4s ease 0s;
+  }
+
+  #page-content-wrapper {
+    width: 100%;
+  }
+
+  .sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 235px;   
+    margin: 0;
+    padding: 0;
+  }
+
+}
+  /*********************     Responsive  - Second Breakpoint      **********************/
+  
+  
+@media screen and (min-width: 768px) {
+  .Plan_Visit {
+    border-left: 5px solid #fff;
+    border-right: 4px solid #fff;;
+  }
+
+  .footer {
+    border-top: solid 5px #fff;
+    height: 150px;
+  }
+  
+  .primary {
+    height: 250px;
+  }
+  
+
+  .carousel {
+    height: 300px;
+  }
+
+}
+
+
