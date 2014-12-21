@@ -21,7 +21,6 @@ li {
 
 a {
 	text-decoration: none;
-	color: $lightTextColor;
 }
 
 /****** MOBILE STYLING **********************/
@@ -33,33 +32,57 @@ body {
 }
 
 .header {
-	color: $lightTextColor;
 	font-size: 3em;
+	a {
+		color: $lightTextColor;
+	}
+}
+
+.nav li {
+	display: inline;
+	margin: 0 10px;
+	a {
+		font-size: 1.3em;
+		color: $darkBorderColor;
+	}
+	.selected {
+		color: $lightTextColor;
+	}
 }
 
 .main,
 .gallery {
 	font-size: 1.5em;
 	background: $lightTextColor;
-	padding: 3% 10%;
 	border-top: solid 12px $darkBorderColor;
 	border-bottom: solid 12px $darkBorderColor;
 
+	a p {
+		color: $darkBorderColor;
+		margin-bottom: 0px;
+		visibility: hidden;
+	}
+
 	li {
 		display: inline-block;
-		margin: 20px 5px;
+		margin: 50px 20px;
 		width: 120px;
 		height: 120px;
 		border: solid 5px $darkTextColor;
 		border-radius: 50%;
-		transition: background .5s, margin .5s;
 	}
 
 	li:hover {
 		background: $backgroundColor;
-		margin: 20px 10px;
+		transition: background .8s;
+		a p {
+			display: block;
+			visibility: visible;
+			transition: visibility .2s;
+		}
 	}
 }
+
 .main li a img {
 		width: 50px;
 		height: 50px;

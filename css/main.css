@@ -14,58 +14,87 @@ li {
 /* line 22, sass/main.scss */
 a {
   text-decoration: none;
-  color: #dddddd;
 }
 
 /****** MOBILE STYLING **********************/
-/* line 29, sass/main.scss */
+/* line 28, sass/main.scss */
 body {
   font: Helevetica, sans-serif;
   background: #82a154;
   text-align: center;
 }
 
-/* line 35, sass/main.scss */
+/* line 34, sass/main.scss */
 .header {
-  color: #dddddd;
   font-size: 3em;
+}
+/* line 36, sass/main.scss */
+.header a {
+  color: #dddddd;
 }
 
 /* line 41, sass/main.scss */
+.nav li {
+  display: inline;
+  margin: 0 10px;
+}
+/* line 44, sass/main.scss */
+.nav li a {
+  font-size: 1.3em;
+  color: #404f29;
+}
+/* line 48, sass/main.scss */
+.nav li .selected {
+  color: #dddddd;
+}
+
+/* line 54, sass/main.scss */
 .main,
 .gallery {
   font-size: 1.5em;
   background: #dddddd;
-  padding: 3% 10%;
   border-top: solid 12px #404f29;
   border-bottom: solid 12px #404f29;
 }
-/* line 48, sass/main.scss */
+/* line 60, sass/main.scss */
+.main a p,
+.gallery a p {
+  color: #404f29;
+  margin-bottom: 0px;
+  visibility: hidden;
+}
+/* line 66, sass/main.scss */
 .main li,
 .gallery li {
   display: inline-block;
-  margin: 20px 5px;
+  margin: 50px 20px;
   width: 120px;
   height: 120px;
   border: solid 5px #4e6133;
   border-radius: 50%;
-  transition: background .5s, margin .5s;
 }
-/* line 58, sass/main.scss */
+/* line 75, sass/main.scss */
 .main li:hover,
 .gallery li:hover {
   background: #82a154;
-  margin: 20px 10px;
+  transition: background .8s;
+}
+/* line 78, sass/main.scss */
+.main li:hover a p,
+.gallery li:hover a p {
+  display: block;
+  visibility: visible;
+  transition: visibility .2s;
 }
 
-/* line 63, sass/main.scss */
+/* line 86, sass/main.scss */
 .main li a img {
   width: 50px;
   height: 50px;
   padding: 35px 25px 25px 25px;
 }
 
-/* line 69, sass/main.scss */
+/* line 92, sass/main.scss */
 .gallery li a img {
   width: 120px;
   height: 120px;
@@ -73,11 +102,11 @@ body {
   border-radius: 50%;
 }
 
-/* line 78, sass/main.scss */
+/* line 101, sass/main.scss */
 .foot p {
   color: #404f29;
 }
-/* line 81, sass/main.scss */
+/* line 104, sass/main.scss */
 .foot li {
   padding: 0 5%;
   display: inline;
